@@ -1,0 +1,3190 @@
+{
+  "hash": "a28698f2cc1f673cb5fd",
+  "version": "5.1.3",
+  "time": 347,
+  "builtAt": 1603405142299,
+  "publicPath": "auto",
+  "outputPath": "/home/javier/Documents/microverse/to-do-list/dist",
+  "assetsByChunkName": {
+    "main": [
+      "[main].js"
+    ]
+  },
+  "assets": [
+    {
+      "type": "asset",
+      "name": "[main].js",
+      "size": 491,
+      "chunkNames": [
+        "main"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "emitted": false,
+      "comparedForEmit": true,
+      "cached": false,
+      "info": {
+        "minimized": true,
+        "size": 491
+      },
+      "related": {},
+      "chunks": [
+        179
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "index.html",
+      "size": 212,
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "emitted": false,
+      "comparedForEmit": true,
+      "cached": false,
+      "info": {
+        "size": 212
+      },
+      "related": {},
+      "chunks": [],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    }
+  ],
+  "chunks": [
+    {
+      "rendered": true,
+      "initial": true,
+      "entry": true,
+      "recorded": false,
+      "size": 1203,
+      "sizes": {
+        "javascript": 1203
+      },
+      "names": [
+        "main"
+      ],
+      "idHints": [],
+      "runtime": [
+        "main"
+      ],
+      "files": [
+        "[main].js"
+      ],
+      "auxiliaryFiles": [],
+      "hash": "902ffead8a4ff7bc2c81",
+      "childrenByOrder": {},
+      "id": 179,
+      "siblings": [],
+      "parents": [],
+      "children": [],
+      "modules": [
+        {
+          "type": "module",
+          "moduleType": "javascript/esm",
+          "identifier": "/home/javier/Documents/microverse/to-do-list/src/index.js|3bc68c10c84092e1904828b6c2a55d0c",
+          "name": "./src/index.js + 1 modules",
+          "nameForCondition": "/home/javier/Documents/microverse/to-do-list/src/index.js",
+          "index": 0,
+          "preOrderIndex": 0,
+          "index2": 1,
+          "postOrderIndex": 1,
+          "size": 1203,
+          "sizes": {
+            "javascript": 1203
+          },
+          "cacheable": true,
+          "built": true,
+          "codeGenerated": true,
+          "cached": false,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": 725,
+          "chunks": [
+            179
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "resolvedModuleIdentifier": null,
+              "resolvedModule": null,
+              "type": "entry",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./src/index.js",
+              "loc": "main",
+              "moduleId": null,
+              "resolvedModuleId": null
+            }
+          ],
+          "usedExports": [],
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": 0,
+          "modules": [
+            {
+              "type": "module",
+              "moduleType": "javascript/auto",
+              "identifier": "/home/javier/Documents/microverse/to-do-list/src/index.js",
+              "name": "./src/index.js",
+              "nameForCondition": "/home/javier/Documents/microverse/to-do-list/src/index.js",
+              "index": 0,
+              "preOrderIndex": 0,
+              "index2": 1,
+              "postOrderIndex": 1,
+              "size": 115,
+              "sizes": {
+                "javascript": 115
+              },
+              "cacheable": true,
+              "built": true,
+              "codeGenerated": false,
+              "cached": false,
+              "optional": false,
+              "orphan": false,
+              "dependent": true,
+              "issuer": null,
+              "issuerName": null,
+              "issuerPath": null,
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "profile": {
+                "total": 36,
+                "resolving": 20,
+                "restoring": 0,
+                "building": 16,
+                "integration": 0,
+                "storing": 0,
+                "additionalResolving": 0,
+                "additionalIntegration": 0,
+                "factory": 20,
+                "dependencies": 0
+              },
+              "id": null,
+              "issuerId": null,
+              "chunks": [],
+              "assets": [],
+              "reasons": [],
+              "usedExports": [],
+              "providedExports": [],
+              "optimizationBailout": [],
+              "depth": 0
+            },
+            {
+              "type": "module",
+              "moduleType": "javascript/auto",
+              "identifier": "/home/javier/Documents/microverse/to-do-list/src/todos.js",
+              "name": "./src/todos.js",
+              "nameForCondition": "/home/javier/Documents/microverse/to-do-list/src/todos.js",
+              "index": 1,
+              "preOrderIndex": 1,
+              "index2": 0,
+              "postOrderIndex": 0,
+              "size": 1088,
+              "sizes": {
+                "javascript": 1088
+              },
+              "cacheable": true,
+              "built": true,
+              "codeGenerated": false,
+              "cached": false,
+              "optional": false,
+              "orphan": false,
+              "dependent": true,
+              "issuer": "/home/javier/Documents/microverse/to-do-list/src/index.js",
+              "issuerName": "./src/index.js",
+              "issuerPath": [
+                {
+                  "identifier": "/home/javier/Documents/microverse/to-do-list/src/index.js",
+                  "name": "./src/index.js",
+                  "profile": {
+                    "total": 36,
+                    "resolving": 20,
+                    "restoring": 0,
+                    "building": 16,
+                    "integration": 0,
+                    "storing": 0,
+                    "additionalResolving": 0,
+                    "additionalIntegration": 0,
+                    "factory": 20,
+                    "dependencies": 0
+                  },
+                  "id": null
+                }
+              ],
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "profile": {
+                "total": 8,
+                "resolving": 1,
+                "restoring": 0,
+                "building": 7,
+                "integration": 0,
+                "storing": 0,
+                "additionalResolving": 0,
+                "additionalIntegration": 0,
+                "factory": 1,
+                "dependencies": 0
+              },
+              "id": null,
+              "issuerId": null,
+              "chunks": [],
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleIdentifier": "/home/javier/Documents/microverse/to-do-list/src/index.js",
+                  "module": "./src/index.js",
+                  "moduleName": "./src/index.js",
+                  "resolvedModuleIdentifier": "/home/javier/Documents/microverse/to-do-list/src/index.js",
+                  "resolvedModule": "./src/index.js",
+                  "type": "harmony side effect evaluation",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": "./todos",
+                  "loc": "1:0-27",
+                  "moduleId": null,
+                  "resolvedModuleId": null
+                },
+                {
+                  "moduleIdentifier": "/home/javier/Documents/microverse/to-do-list/src/index.js",
+                  "module": "./src/index.js",
+                  "moduleName": "./src/index.js",
+                  "resolvedModuleIdentifier": "/home/javier/Documents/microverse/to-do-list/src/index.js",
+                  "resolvedModule": "./src/index.js",
+                  "type": "harmony import specifier",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": "./todos",
+                  "loc": "3:19-23",
+                  "moduleId": null,
+                  "resolvedModuleId": null
+                }
+              ],
+              "usedExports": [
+                "default"
+              ],
+              "providedExports": [
+                "default"
+              ],
+              "optimizationBailout": [],
+              "depth": 1
+            }
+          ]
+        }
+      ],
+      "origins": [
+        {
+          "module": "",
+          "moduleIdentifier": "",
+          "moduleName": "",
+          "loc": "main",
+          "request": "./src/index.js"
+        }
+      ]
+    }
+  ],
+  "modules": [
+    {
+      "type": "module",
+      "moduleType": "javascript/esm",
+      "identifier": "/home/javier/Documents/microverse/to-do-list/src/index.js|3bc68c10c84092e1904828b6c2a55d0c",
+      "name": "./src/index.js + 1 modules",
+      "nameForCondition": "/home/javier/Documents/microverse/to-do-list/src/index.js",
+      "index": 0,
+      "preOrderIndex": 0,
+      "index2": 1,
+      "postOrderIndex": 1,
+      "size": 1203,
+      "sizes": {
+        "javascript": 1203
+      },
+      "cacheable": true,
+      "built": true,
+      "codeGenerated": true,
+      "cached": false,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": 725,
+      "chunks": [
+        179
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": null,
+          "module": null,
+          "moduleName": null,
+          "resolvedModuleIdentifier": null,
+          "resolvedModule": null,
+          "type": "entry",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./src/index.js",
+          "loc": "main",
+          "moduleId": null,
+          "resolvedModuleId": null
+        }
+      ],
+      "usedExports": [],
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": 0,
+      "modules": [
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "identifier": "/home/javier/Documents/microverse/to-do-list/src/index.js",
+          "name": "./src/index.js",
+          "nameForCondition": "/home/javier/Documents/microverse/to-do-list/src/index.js",
+          "index": 0,
+          "preOrderIndex": 0,
+          "index2": 1,
+          "postOrderIndex": 1,
+          "size": 115,
+          "sizes": {
+            "javascript": 115
+          },
+          "cacheable": true,
+          "built": true,
+          "codeGenerated": false,
+          "cached": false,
+          "optional": false,
+          "orphan": false,
+          "issuer": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "profile": {
+            "total": 36,
+            "resolving": 20,
+            "restoring": 0,
+            "building": 16,
+            "integration": 0,
+            "storing": 0,
+            "additionalResolving": 0,
+            "additionalIntegration": 0,
+            "factory": 20,
+            "dependencies": 0
+          },
+          "id": null,
+          "issuerId": null,
+          "chunks": [],
+          "assets": [],
+          "reasons": [],
+          "usedExports": [],
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": 0
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "identifier": "/home/javier/Documents/microverse/to-do-list/src/todos.js",
+          "name": "./src/todos.js",
+          "nameForCondition": "/home/javier/Documents/microverse/to-do-list/src/todos.js",
+          "index": 1,
+          "preOrderIndex": 1,
+          "index2": 0,
+          "postOrderIndex": 0,
+          "size": 1088,
+          "sizes": {
+            "javascript": 1088
+          },
+          "cacheable": true,
+          "built": true,
+          "codeGenerated": false,
+          "cached": false,
+          "optional": false,
+          "orphan": false,
+          "issuer": "/home/javier/Documents/microverse/to-do-list/src/index.js",
+          "issuerName": "./src/index.js",
+          "issuerPath": [
+            {
+              "identifier": "/home/javier/Documents/microverse/to-do-list/src/index.js",
+              "name": "./src/index.js",
+              "profile": {
+                "total": 36,
+                "resolving": 20,
+                "restoring": 0,
+                "building": 16,
+                "integration": 0,
+                "storing": 0,
+                "additionalResolving": 0,
+                "additionalIntegration": 0,
+                "factory": 20,
+                "dependencies": 0
+              },
+              "id": null
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "profile": {
+            "total": 8,
+            "resolving": 1,
+            "restoring": 0,
+            "building": 7,
+            "integration": 0,
+            "storing": 0,
+            "additionalResolving": 0,
+            "additionalIntegration": 0,
+            "factory": 1,
+            "dependencies": 0
+          },
+          "id": null,
+          "issuerId": null,
+          "chunks": [],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/home/javier/Documents/microverse/to-do-list/src/index.js",
+              "module": "./src/index.js",
+              "moduleName": "./src/index.js",
+              "resolvedModuleIdentifier": "/home/javier/Documents/microverse/to-do-list/src/index.js",
+              "resolvedModule": "./src/index.js",
+              "type": "harmony side effect evaluation",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./todos",
+              "loc": "1:0-27",
+              "moduleId": null,
+              "resolvedModuleId": null
+            },
+            {
+              "moduleIdentifier": "/home/javier/Documents/microverse/to-do-list/src/index.js",
+              "module": "./src/index.js",
+              "moduleName": "./src/index.js",
+              "resolvedModuleIdentifier": "/home/javier/Documents/microverse/to-do-list/src/index.js",
+              "resolvedModule": "./src/index.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./todos",
+              "loc": "3:19-23",
+              "moduleId": null,
+              "resolvedModuleId": null
+            }
+          ],
+          "usedExports": [
+            "default"
+          ],
+          "providedExports": [
+            "default"
+          ],
+          "optimizationBailout": [],
+          "depth": 1
+        }
+      ]
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "identifier": "/home/javier/Documents/microverse/to-do-list/src/todos.js",
+      "name": "./src/todos.js",
+      "nameForCondition": "/home/javier/Documents/microverse/to-do-list/src/todos.js",
+      "index": 1,
+      "preOrderIndex": 1,
+      "index2": 0,
+      "postOrderIndex": 0,
+      "size": 1088,
+      "sizes": {
+        "javascript": 1088
+      },
+      "cacheable": true,
+      "built": true,
+      "codeGenerated": false,
+      "cached": false,
+      "optional": false,
+      "orphan": true,
+      "issuer": "/home/javier/Documents/microverse/to-do-list/src/index.js",
+      "issuerName": "./src/index.js",
+      "issuerPath": [
+        {
+          "identifier": "/home/javier/Documents/microverse/to-do-list/src/index.js",
+          "name": "./src/index.js",
+          "profile": {
+            "total": 36,
+            "resolving": 20,
+            "restoring": 0,
+            "building": 16,
+            "integration": 0,
+            "storing": 0,
+            "additionalResolving": 0,
+            "additionalIntegration": 0,
+            "factory": 20,
+            "dependencies": 0
+          },
+          "id": null
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "profile": {
+        "total": 8,
+        "resolving": 1,
+        "restoring": 0,
+        "building": 7,
+        "integration": 0,
+        "storing": 0,
+        "additionalResolving": 0,
+        "additionalIntegration": 0,
+        "factory": 1,
+        "dependencies": 0
+      },
+      "id": null,
+      "issuerId": null,
+      "chunks": [],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "/home/javier/Documents/microverse/to-do-list/src/index.js",
+          "module": "./src/index.js",
+          "moduleName": "./src/index.js",
+          "resolvedModuleIdentifier": "/home/javier/Documents/microverse/to-do-list/src/index.js",
+          "resolvedModule": "./src/index.js",
+          "type": "harmony side effect evaluation",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./todos",
+          "loc": "1:0-27",
+          "moduleId": null,
+          "resolvedModuleId": null
+        },
+        {
+          "moduleIdentifier": "/home/javier/Documents/microverse/to-do-list/src/index.js",
+          "module": "./src/index.js",
+          "moduleName": "./src/index.js",
+          "resolvedModuleIdentifier": "/home/javier/Documents/microverse/to-do-list/src/index.js",
+          "resolvedModule": "./src/index.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./todos",
+          "loc": "3:19-23",
+          "moduleId": null,
+          "resolvedModuleId": null
+        }
+      ],
+      "usedExports": [
+        "default"
+      ],
+      "providedExports": [
+        "default"
+      ],
+      "optimizationBailout": [],
+      "depth": 1
+    }
+  ],
+  "entrypoints": {
+    "main": {
+      "name": "main",
+      "chunks": [
+        179
+      ],
+      "assets": [
+        {
+          "name": "[main].js",
+          "size": 491
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": 491,
+      "auxiliaryAssets": [],
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": 0,
+      "children": {},
+      "childAssets": {},
+      "isOverSizeLimit": false
+    }
+  },
+  "namedChunkGroups": {
+    "main": {
+      "name": "main",
+      "chunks": [
+        179
+      ],
+      "assets": [
+        {
+          "name": "[main].js",
+          "size": 491
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": 491,
+      "auxiliaryAssets": [],
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": 0,
+      "children": {},
+      "childAssets": {},
+      "isOverSizeLimit": false
+    }
+  },
+  "errors": [],
+  "errorsCount": 0,
+  "warnings": [],
+  "warningsCount": 0,
+  "children": [
+    {
+      "name": "HtmlWebpackCompiler",
+      "hash": "97718d1564bb20e385bf",
+      "version": "5.1.3",
+      "time": 77,
+      "builtAt": 1603405142046,
+      "publicPath": "auto",
+      "outputPath": "/home/javier/Documents/microverse/to-do-list/dist",
+      "assetsByChunkName": {
+        "HtmlWebpackPlugin_0": [
+          "__child-HtmlWebpackPlugin_0"
+        ]
+      },
+      "assets": [
+        {
+          "type": "asset",
+          "name": "__child-HtmlWebpackPlugin_0",
+          "size": 1826,
+          "chunkNames": [
+            "HtmlWebpackPlugin_0"
+          ],
+          "chunkIdHints": [],
+          "auxiliaryChunkNames": [],
+          "auxiliaryChunkIdHints": [],
+          "emitted": false,
+          "comparedForEmit": false,
+          "cached": true,
+          "info": {},
+          "related": {},
+          "chunks": [
+            443
+          ],
+          "auxiliaryChunks": [],
+          "isOverSizeLimit": false
+        }
+      ],
+      "chunks": [
+        {
+          "rendered": true,
+          "initial": true,
+          "entry": true,
+          "recorded": false,
+          "size": 445,
+          "sizes": {
+            "javascript": 445
+          },
+          "names": [
+            "HtmlWebpackPlugin_0"
+          ],
+          "idHints": [],
+          "runtime": [
+            "HtmlWebpackPlugin_0"
+          ],
+          "files": [
+            "__child-HtmlWebpackPlugin_0"
+          ],
+          "auxiliaryFiles": [],
+          "hash": "96b254dbc988e1464b51",
+          "childrenByOrder": {},
+          "id": 443,
+          "siblings": [],
+          "parents": [],
+          "children": [],
+          "modules": [
+            {
+              "type": "module",
+              "moduleType": "javascript/auto",
+              "identifier": "/home/javier/Documents/microverse/to-do-list/node_modules/html-webpack-plugin/lib/loader.js!/home/javier/Documents/microverse/to-do-list/node_modules/html-webpack-plugin/default_index.ejs",
+              "name": "./node_modules/html-webpack-plugin/lib/loader.js!./node_modules/html-webpack-plugin/default_index.ejs",
+              "nameForCondition": "/home/javier/Documents/microverse/to-do-list/node_modules/html-webpack-plugin/default_index.ejs",
+              "index": 0,
+              "preOrderIndex": 0,
+              "index2": 0,
+              "postOrderIndex": 0,
+              "size": 445,
+              "sizes": {
+                "javascript": 445
+              },
+              "cacheable": true,
+              "built": true,
+              "codeGenerated": true,
+              "cached": false,
+              "optional": false,
+              "orphan": false,
+              "dependent": false,
+              "issuer": null,
+              "issuerName": null,
+              "issuerPath": null,
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "profile": {
+                "total": 0,
+                "resolving": 0,
+                "restoring": 0,
+                "building": 0,
+                "integration": 0,
+                "storing": 0,
+                "additionalResolving": 0,
+                "additionalIntegration": 0,
+                "factory": 0,
+                "dependencies": 0
+              },
+              "id": 893,
+              "issuerId": null,
+              "chunks": [
+                443
+              ],
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleIdentifier": "/home/javier/Documents/microverse/to-do-list/node_modules/html-webpack-plugin/lib/loader.js!/home/javier/Documents/microverse/to-do-list/node_modules/html-webpack-plugin/default_index.ejs",
+                  "module": "./node_modules/html-webpack-plugin/lib/loader.js!./node_modules/html-webpack-plugin/default_index.ejs",
+                  "moduleName": "./node_modules/html-webpack-plugin/lib/loader.js!./node_modules/html-webpack-plugin/default_index.ejs",
+                  "resolvedModuleIdentifier": "/home/javier/Documents/microverse/to-do-list/node_modules/html-webpack-plugin/lib/loader.js!/home/javier/Documents/microverse/to-do-list/node_modules/html-webpack-plugin/default_index.ejs",
+                  "resolvedModule": "./node_modules/html-webpack-plugin/lib/loader.js!./node_modules/html-webpack-plugin/default_index.ejs",
+                  "type": "cjs self exports reference",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": null,
+                  "loc": "1:110-124",
+                  "moduleId": 893,
+                  "resolvedModuleId": 893
+                },
+                {
+                  "moduleIdentifier": null,
+                  "module": null,
+                  "moduleName": null,
+                  "resolvedModuleIdentifier": null,
+                  "resolvedModule": null,
+                  "type": "entry",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": "/home/javier/Documents/microverse/to-do-list/node_modules/html-webpack-plugin/lib/loader.js!/home/javier/Documents/microverse/to-do-list/node_modules/html-webpack-plugin/default_index.ejs",
+                  "loc": "HtmlWebpackPlugin_0",
+                  "moduleId": null,
+                  "resolvedModuleId": null
+                },
+                {
+                  "moduleIdentifier": null,
+                  "module": null,
+                  "moduleName": null,
+                  "resolvedModuleIdentifier": null,
+                  "resolvedModule": null,
+                  "type": null,
+                  "active": true,
+                  "explanation": "used as library export",
+                  "userRequest": null,
+                  "moduleId": null,
+                  "resolvedModuleId": null
+                }
+              ],
+              "usedExports": null,
+              "providedExports": null,
+              "optimizationBailout": [
+                "CommonJS bailout: module.exports is used directly at 1:110-124",
+                "ModuleConcatenation bailout: Module is not an ECMAScript module"
+              ],
+              "depth": 0
+            }
+          ],
+          "origins": [
+            {
+              "module": "",
+              "moduleIdentifier": "",
+              "moduleName": "",
+              "loc": "HtmlWebpackPlugin_0",
+              "request": "/home/javier/Documents/microverse/to-do-list/node_modules/html-webpack-plugin/lib/loader.js!/home/javier/Documents/microverse/to-do-list/node_modules/html-webpack-plugin/default_index.ejs"
+            }
+          ]
+        }
+      ],
+      "modules": [
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "identifier": "/home/javier/Documents/microverse/to-do-list/node_modules/html-webpack-plugin/lib/loader.js!/home/javier/Documents/microverse/to-do-list/node_modules/html-webpack-plugin/default_index.ejs",
+          "name": "./node_modules/html-webpack-plugin/lib/loader.js!./node_modules/html-webpack-plugin/default_index.ejs",
+          "nameForCondition": "/home/javier/Documents/microverse/to-do-list/node_modules/html-webpack-plugin/default_index.ejs",
+          "index": 0,
+          "preOrderIndex": 0,
+          "index2": 0,
+          "postOrderIndex": 0,
+          "size": 445,
+          "sizes": {
+            "javascript": 445
+          },
+          "cacheable": true,
+          "built": true,
+          "codeGenerated": true,
+          "cached": false,
+          "optional": false,
+          "orphan": false,
+          "issuer": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "profile": {
+            "total": 0,
+            "resolving": 0,
+            "restoring": 0,
+            "building": 0,
+            "integration": 0,
+            "storing": 0,
+            "additionalResolving": 0,
+            "additionalIntegration": 0,
+            "factory": 0,
+            "dependencies": 0
+          },
+          "id": 893,
+          "issuerId": null,
+          "chunks": [
+            443
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/home/javier/Documents/microverse/to-do-list/node_modules/html-webpack-plugin/lib/loader.js!/home/javier/Documents/microverse/to-do-list/node_modules/html-webpack-plugin/default_index.ejs",
+              "module": "./node_modules/html-webpack-plugin/lib/loader.js!./node_modules/html-webpack-plugin/default_index.ejs",
+              "moduleName": "./node_modules/html-webpack-plugin/lib/loader.js!./node_modules/html-webpack-plugin/default_index.ejs",
+              "resolvedModuleIdentifier": "/home/javier/Documents/microverse/to-do-list/node_modules/html-webpack-plugin/lib/loader.js!/home/javier/Documents/microverse/to-do-list/node_modules/html-webpack-plugin/default_index.ejs",
+              "resolvedModule": "./node_modules/html-webpack-plugin/lib/loader.js!./node_modules/html-webpack-plugin/default_index.ejs",
+              "type": "cjs self exports reference",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "loc": "1:110-124",
+              "moduleId": 893,
+              "resolvedModuleId": 893
+            },
+            {
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "resolvedModuleIdentifier": null,
+              "resolvedModule": null,
+              "type": "entry",
+              "active": true,
+              "explanation": "",
+              "userRequest": "/home/javier/Documents/microverse/to-do-list/node_modules/html-webpack-plugin/lib/loader.js!/home/javier/Documents/microverse/to-do-list/node_modules/html-webpack-plugin/default_index.ejs",
+              "loc": "HtmlWebpackPlugin_0",
+              "moduleId": null,
+              "resolvedModuleId": null
+            },
+            {
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "resolvedModuleIdentifier": null,
+              "resolvedModule": null,
+              "type": null,
+              "active": true,
+              "explanation": "used as library export",
+              "userRequest": null,
+              "moduleId": null,
+              "resolvedModuleId": null
+            }
+          ],
+          "usedExports": null,
+          "providedExports": null,
+          "optimizationBailout": [
+            "CommonJS bailout: module.exports is used directly at 1:110-124",
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 0
+        }
+      ],
+      "entrypoints": {
+        "HtmlWebpackPlugin_0": {
+          "name": "HtmlWebpackPlugin_0",
+          "chunks": [
+            443
+          ],
+          "assets": [
+            {
+              "name": "__child-HtmlWebpackPlugin_0"
+            }
+          ],
+          "filteredAssets": 0,
+          "assetsSize": null,
+          "auxiliaryAssets": [],
+          "filteredAuxiliaryAssets": 0,
+          "auxiliaryAssetsSize": 0,
+          "children": {},
+          "childAssets": {},
+          "isOverSizeLimit": false
+        }
+      },
+      "namedChunkGroups": {
+        "HtmlWebpackPlugin_0": {
+          "name": "HtmlWebpackPlugin_0",
+          "chunks": [
+            443
+          ],
+          "assets": [
+            {
+              "name": "__child-HtmlWebpackPlugin_0"
+            }
+          ],
+          "filteredAssets": 0,
+          "assetsSize": null,
+          "auxiliaryAssets": [],
+          "filteredAuxiliaryAssets": 0,
+          "auxiliaryAssetsSize": 0,
+          "children": {},
+          "childAssets": {},
+          "isOverSizeLimit": false
+        }
+      },
+      "errors": [],
+      "errorsCount": 0,
+      "warnings": [],
+      "warningsCount": 0,
+      "children": []
+    }
+  ]
+}
+[webpack-cli] [32mwatching files for updates...[39m
+{
+  "hash": "fc85ee44fc8806f356c4",
+  "version": "5.1.3",
+  "time": 165,
+  "builtAt": 1603405302249,
+  "publicPath": "auto",
+  "outputPath": "/home/javier/Documents/microverse/to-do-list/dist",
+  "assetsByChunkName": {
+    "main": [
+      "[main].js"
+    ]
+  },
+  "assets": [
+    {
+      "type": "asset",
+      "name": "[main].js",
+      "size": 491,
+      "chunkNames": [
+        "main"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "emitted": true,
+      "comparedForEmit": false,
+      "cached": false,
+      "info": {
+        "minimized": true,
+        "size": 491
+      },
+      "related": {},
+      "chunks": [
+        179
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    }
+  ],
+  "chunks": [
+    {
+      "rendered": true,
+      "initial": true,
+      "entry": true,
+      "recorded": false,
+      "size": 1203,
+      "sizes": {
+        "javascript": 1203
+      },
+      "names": [
+        "main"
+      ],
+      "idHints": [],
+      "runtime": [
+        "main"
+      ],
+      "files": [
+        "[main].js"
+      ],
+      "auxiliaryFiles": [],
+      "hash": "902ffead8a4ff7bc2c81",
+      "childrenByOrder": {},
+      "id": 179,
+      "siblings": [],
+      "parents": [],
+      "children": [],
+      "modules": [
+        {
+          "type": "module",
+          "moduleType": "javascript/esm",
+          "identifier": "/home/javier/Documents/microverse/to-do-list/src/index.js|3bc68c10c84092e1904828b6c2a55d0c",
+          "name": "./src/index.js + 1 modules",
+          "nameForCondition": "/home/javier/Documents/microverse/to-do-list/src/index.js",
+          "index": 0,
+          "preOrderIndex": 0,
+          "index2": 1,
+          "postOrderIndex": 1,
+          "size": 1203,
+          "sizes": {
+            "javascript": 1203
+          },
+          "cacheable": true,
+          "built": true,
+          "codeGenerated": true,
+          "cached": false,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": 725,
+          "chunks": [
+            179
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "resolvedModuleIdentifier": null,
+              "resolvedModule": null,
+              "type": "entry",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./src/index.js",
+              "loc": "main",
+              "moduleId": null,
+              "resolvedModuleId": null
+            }
+          ],
+          "usedExports": [],
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": 0,
+          "modules": [
+            {
+              "type": "module",
+              "moduleType": "javascript/auto",
+              "identifier": "/home/javier/Documents/microverse/to-do-list/src/index.js",
+              "name": "./src/index.js",
+              "nameForCondition": "/home/javier/Documents/microverse/to-do-list/src/index.js",
+              "index": 0,
+              "preOrderIndex": 0,
+              "index2": 1,
+              "postOrderIndex": 1,
+              "size": 115,
+              "sizes": {
+                "javascript": 115
+              },
+              "cacheable": true,
+              "built": true,
+              "codeGenerated": false,
+              "cached": false,
+              "optional": false,
+              "orphan": false,
+              "dependent": true,
+              "issuer": null,
+              "issuerName": null,
+              "issuerPath": null,
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "profile": {
+                "total": 14,
+                "resolving": 10,
+                "restoring": 0,
+                "building": 4,
+                "integration": 0,
+                "storing": 0,
+                "additionalResolving": 0,
+                "additionalIntegration": 0,
+                "factory": 10,
+                "dependencies": 0
+              },
+              "id": null,
+              "issuerId": null,
+              "chunks": [],
+              "assets": [],
+              "reasons": [],
+              "usedExports": [],
+              "providedExports": [],
+              "optimizationBailout": [],
+              "depth": 0
+            },
+            {
+              "type": "module",
+              "moduleType": "javascript/auto",
+              "identifier": "/home/javier/Documents/microverse/to-do-list/src/todos.js",
+              "name": "./src/todos.js",
+              "nameForCondition": "/home/javier/Documents/microverse/to-do-list/src/todos.js",
+              "index": 1,
+              "preOrderIndex": 1,
+              "index2": 0,
+              "postOrderIndex": 0,
+              "size": 1088,
+              "sizes": {
+                "javascript": 1088
+              },
+              "cacheable": true,
+              "built": true,
+              "codeGenerated": false,
+              "cached": false,
+              "optional": false,
+              "orphan": false,
+              "dependent": true,
+              "issuer": "/home/javier/Documents/microverse/to-do-list/src/index.js",
+              "issuerName": "./src/index.js",
+              "issuerPath": [
+                {
+                  "identifier": "/home/javier/Documents/microverse/to-do-list/src/index.js",
+                  "name": "./src/index.js",
+                  "profile": {
+                    "total": 14,
+                    "resolving": 10,
+                    "restoring": 0,
+                    "building": 4,
+                    "integration": 0,
+                    "storing": 0,
+                    "additionalResolving": 0,
+                    "additionalIntegration": 0,
+                    "factory": 10,
+                    "dependencies": 0
+                  },
+                  "id": null
+                }
+              ],
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "profile": {
+                "total": 8,
+                "resolving": 1,
+                "restoring": 0,
+                "building": 7,
+                "integration": 0,
+                "storing": 0,
+                "additionalResolving": 0,
+                "additionalIntegration": 0,
+                "factory": 1,
+                "dependencies": 0
+              },
+              "id": null,
+              "issuerId": null,
+              "chunks": [],
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleIdentifier": "/home/javier/Documents/microverse/to-do-list/src/index.js",
+                  "module": "./src/index.js",
+                  "moduleName": "./src/index.js",
+                  "resolvedModuleIdentifier": "/home/javier/Documents/microverse/to-do-list/src/index.js",
+                  "resolvedModule": "./src/index.js",
+                  "type": "harmony side effect evaluation",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": "./todos",
+                  "loc": "1:0-27",
+                  "moduleId": null,
+                  "resolvedModuleId": null
+                },
+                {
+                  "moduleIdentifier": "/home/javier/Documents/microverse/to-do-list/src/index.js",
+                  "module": "./src/index.js",
+                  "moduleName": "./src/index.js",
+                  "resolvedModuleIdentifier": "/home/javier/Documents/microverse/to-do-list/src/index.js",
+                  "resolvedModule": "./src/index.js",
+                  "type": "harmony import specifier",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": "./todos",
+                  "loc": "3:19-23",
+                  "moduleId": null,
+                  "resolvedModuleId": null
+                }
+              ],
+              "usedExports": [
+                "default"
+              ],
+              "providedExports": [
+                "default"
+              ],
+              "optimizationBailout": [],
+              "depth": 1
+            }
+          ]
+        }
+      ],
+      "origins": [
+        {
+          "module": "",
+          "moduleIdentifier": "",
+          "moduleName": "",
+          "loc": "main",
+          "request": "./src/index.js"
+        }
+      ]
+    }
+  ],
+  "modules": [
+    {
+      "type": "module",
+      "moduleType": "javascript/esm",
+      "identifier": "/home/javier/Documents/microverse/to-do-list/src/index.js|3bc68c10c84092e1904828b6c2a55d0c",
+      "name": "./src/index.js + 1 modules",
+      "nameForCondition": "/home/javier/Documents/microverse/to-do-list/src/index.js",
+      "index": 0,
+      "preOrderIndex": 0,
+      "index2": 1,
+      "postOrderIndex": 1,
+      "size": 1203,
+      "sizes": {
+        "javascript": 1203
+      },
+      "cacheable": true,
+      "built": true,
+      "codeGenerated": true,
+      "cached": false,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": 725,
+      "chunks": [
+        179
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": null,
+          "module": null,
+          "moduleName": null,
+          "resolvedModuleIdentifier": null,
+          "resolvedModule": null,
+          "type": "entry",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./src/index.js",
+          "loc": "main",
+          "moduleId": null,
+          "resolvedModuleId": null
+        }
+      ],
+      "usedExports": [],
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": 0,
+      "modules": [
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "identifier": "/home/javier/Documents/microverse/to-do-list/src/index.js",
+          "name": "./src/index.js",
+          "nameForCondition": "/home/javier/Documents/microverse/to-do-list/src/index.js",
+          "index": 0,
+          "preOrderIndex": 0,
+          "index2": 1,
+          "postOrderIndex": 1,
+          "size": 115,
+          "sizes": {
+            "javascript": 115
+          },
+          "cacheable": true,
+          "built": true,
+          "codeGenerated": false,
+          "cached": false,
+          "optional": false,
+          "orphan": false,
+          "issuer": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "profile": {
+            "total": 14,
+            "resolving": 10,
+            "restoring": 0,
+            "building": 4,
+            "integration": 0,
+            "storing": 0,
+            "additionalResolving": 0,
+            "additionalIntegration": 0,
+            "factory": 10,
+            "dependencies": 0
+          },
+          "id": null,
+          "issuerId": null,
+          "chunks": [],
+          "assets": [],
+          "reasons": [],
+          "usedExports": [],
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": 0
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "identifier": "/home/javier/Documents/microverse/to-do-list/src/todos.js",
+          "name": "./src/todos.js",
+          "nameForCondition": "/home/javier/Documents/microverse/to-do-list/src/todos.js",
+          "index": 1,
+          "preOrderIndex": 1,
+          "index2": 0,
+          "postOrderIndex": 0,
+          "size": 1088,
+          "sizes": {
+            "javascript": 1088
+          },
+          "cacheable": true,
+          "built": true,
+          "codeGenerated": false,
+          "cached": false,
+          "optional": false,
+          "orphan": false,
+          "issuer": "/home/javier/Documents/microverse/to-do-list/src/index.js",
+          "issuerName": "./src/index.js",
+          "issuerPath": [
+            {
+              "identifier": "/home/javier/Documents/microverse/to-do-list/src/index.js",
+              "name": "./src/index.js",
+              "profile": {
+                "total": 14,
+                "resolving": 10,
+                "restoring": 0,
+                "building": 4,
+                "integration": 0,
+                "storing": 0,
+                "additionalResolving": 0,
+                "additionalIntegration": 0,
+                "factory": 10,
+                "dependencies": 0
+              },
+              "id": null
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "profile": {
+            "total": 8,
+            "resolving": 1,
+            "restoring": 0,
+            "building": 7,
+            "integration": 0,
+            "storing": 0,
+            "additionalResolving": 0,
+            "additionalIntegration": 0,
+            "factory": 1,
+            "dependencies": 0
+          },
+          "id": null,
+          "issuerId": null,
+          "chunks": [],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/home/javier/Documents/microverse/to-do-list/src/index.js",
+              "module": "./src/index.js",
+              "moduleName": "./src/index.js",
+              "resolvedModuleIdentifier": "/home/javier/Documents/microverse/to-do-list/src/index.js",
+              "resolvedModule": "./src/index.js",
+              "type": "harmony side effect evaluation",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./todos",
+              "loc": "1:0-27",
+              "moduleId": null,
+              "resolvedModuleId": null
+            },
+            {
+              "moduleIdentifier": "/home/javier/Documents/microverse/to-do-list/src/index.js",
+              "module": "./src/index.js",
+              "moduleName": "./src/index.js",
+              "resolvedModuleIdentifier": "/home/javier/Documents/microverse/to-do-list/src/index.js",
+              "resolvedModule": "./src/index.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./todos",
+              "loc": "3:19-23",
+              "moduleId": null,
+              "resolvedModuleId": null
+            }
+          ],
+          "usedExports": [
+            "default"
+          ],
+          "providedExports": [
+            "default"
+          ],
+          "optimizationBailout": [],
+          "depth": 1
+        }
+      ]
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "identifier": "/home/javier/Documents/microverse/to-do-list/src/todos.js",
+      "name": "./src/todos.js",
+      "nameForCondition": "/home/javier/Documents/microverse/to-do-list/src/todos.js",
+      "index": 1,
+      "preOrderIndex": 1,
+      "index2": 0,
+      "postOrderIndex": 0,
+      "size": 1088,
+      "sizes": {
+        "javascript": 1088
+      },
+      "cacheable": true,
+      "built": true,
+      "codeGenerated": false,
+      "cached": false,
+      "optional": false,
+      "orphan": true,
+      "issuer": "/home/javier/Documents/microverse/to-do-list/src/index.js",
+      "issuerName": "./src/index.js",
+      "issuerPath": [
+        {
+          "identifier": "/home/javier/Documents/microverse/to-do-list/src/index.js",
+          "name": "./src/index.js",
+          "profile": {
+            "total": 14,
+            "resolving": 10,
+            "restoring": 0,
+            "building": 4,
+            "integration": 0,
+            "storing": 0,
+            "additionalResolving": 0,
+            "additionalIntegration": 0,
+            "factory": 10,
+            "dependencies": 0
+          },
+          "id": null
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "profile": {
+        "total": 8,
+        "resolving": 1,
+        "restoring": 0,
+        "building": 7,
+        "integration": 0,
+        "storing": 0,
+        "additionalResolving": 0,
+        "additionalIntegration": 0,
+        "factory": 1,
+        "dependencies": 0
+      },
+      "id": null,
+      "issuerId": null,
+      "chunks": [],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "/home/javier/Documents/microverse/to-do-list/src/index.js",
+          "module": "./src/index.js",
+          "moduleName": "./src/index.js",
+          "resolvedModuleIdentifier": "/home/javier/Documents/microverse/to-do-list/src/index.js",
+          "resolvedModule": "./src/index.js",
+          "type": "harmony side effect evaluation",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./todos",
+          "loc": "1:0-27",
+          "moduleId": null,
+          "resolvedModuleId": null
+        },
+        {
+          "moduleIdentifier": "/home/javier/Documents/microverse/to-do-list/src/index.js",
+          "module": "./src/index.js",
+          "moduleName": "./src/index.js",
+          "resolvedModuleIdentifier": "/home/javier/Documents/microverse/to-do-list/src/index.js",
+          "resolvedModule": "./src/index.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./todos",
+          "loc": "3:19-23",
+          "moduleId": null,
+          "resolvedModuleId": null
+        }
+      ],
+      "usedExports": [
+        "default"
+      ],
+      "providedExports": [
+        "default"
+      ],
+      "optimizationBailout": [],
+      "depth": 1
+    }
+  ],
+  "entrypoints": {
+    "main": {
+      "name": "main",
+      "chunks": [
+        179
+      ],
+      "assets": [
+        {
+          "name": "[main].js",
+          "size": 491
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": 491,
+      "auxiliaryAssets": [],
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": 0,
+      "children": {},
+      "childAssets": {},
+      "isOverSizeLimit": false
+    }
+  },
+  "namedChunkGroups": {
+    "main": {
+      "name": "main",
+      "chunks": [
+        179
+      ],
+      "assets": [
+        {
+          "name": "[main].js",
+          "size": 491
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": 491,
+      "auxiliaryAssets": [],
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": 0,
+      "children": {},
+      "childAssets": {},
+      "isOverSizeLimit": false
+    }
+  },
+  "errors": [],
+  "errorsCount": 0,
+  "warnings": [],
+  "warningsCount": 0,
+  "children": []
+}
+[webpack-cli] [32mwatching files for updates...[39m
+{
+  "hash": "a28698f2cc1f673cb5fd",
+  "version": "5.1.3",
+  "time": 236,
+  "builtAt": 1603405407080,
+  "publicPath": "auto",
+  "outputPath": "/home/javier/Documents/microverse/to-do-list/dist",
+  "assetsByChunkName": {
+    "main": [
+      "[main].js"
+    ]
+  },
+  "assets": [
+    {
+      "type": "asset",
+      "name": "[main].js",
+      "size": 491,
+      "chunkNames": [
+        "main"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "emitted": true,
+      "comparedForEmit": false,
+      "cached": false,
+      "info": {
+        "minimized": true,
+        "size": 491
+      },
+      "related": {},
+      "chunks": [
+        179
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "index.html",
+      "size": 212,
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "emitted": true,
+      "comparedForEmit": false,
+      "cached": false,
+      "info": {
+        "size": 212
+      },
+      "related": {},
+      "chunks": [],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    }
+  ],
+  "chunks": [
+    {
+      "rendered": true,
+      "initial": true,
+      "entry": true,
+      "recorded": false,
+      "size": 1203,
+      "sizes": {
+        "javascript": 1203
+      },
+      "names": [
+        "main"
+      ],
+      "idHints": [],
+      "runtime": [
+        "main"
+      ],
+      "files": [
+        "[main].js"
+      ],
+      "auxiliaryFiles": [],
+      "hash": "902ffead8a4ff7bc2c81",
+      "childrenByOrder": {},
+      "id": 179,
+      "siblings": [],
+      "parents": [],
+      "children": [],
+      "modules": [
+        {
+          "type": "module",
+          "moduleType": "javascript/esm",
+          "identifier": "/home/javier/Documents/microverse/to-do-list/src/index.js|3bc68c10c84092e1904828b6c2a55d0c",
+          "name": "./src/index.js + 1 modules",
+          "nameForCondition": "/home/javier/Documents/microverse/to-do-list/src/index.js",
+          "index": 0,
+          "preOrderIndex": 0,
+          "index2": 1,
+          "postOrderIndex": 1,
+          "size": 1203,
+          "sizes": {
+            "javascript": 1203
+          },
+          "cacheable": true,
+          "built": true,
+          "codeGenerated": true,
+          "cached": false,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": 725,
+          "chunks": [
+            179
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "resolvedModuleIdentifier": null,
+              "resolvedModule": null,
+              "type": "entry",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./src/index.js",
+              "loc": "main",
+              "moduleId": null,
+              "resolvedModuleId": null
+            }
+          ],
+          "usedExports": [],
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": 0,
+          "modules": [
+            {
+              "type": "module",
+              "moduleType": "javascript/auto",
+              "identifier": "/home/javier/Documents/microverse/to-do-list/src/index.js",
+              "name": "./src/index.js",
+              "nameForCondition": "/home/javier/Documents/microverse/to-do-list/src/index.js",
+              "index": 0,
+              "preOrderIndex": 0,
+              "index2": 1,
+              "postOrderIndex": 1,
+              "size": 115,
+              "sizes": {
+                "javascript": 115
+              },
+              "cacheable": true,
+              "built": true,
+              "codeGenerated": false,
+              "cached": false,
+              "optional": false,
+              "orphan": false,
+              "dependent": true,
+              "issuer": null,
+              "issuerName": null,
+              "issuerPath": null,
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "profile": {
+                "total": 11,
+                "resolving": 6,
+                "restoring": 0,
+                "building": 5,
+                "integration": 0,
+                "storing": 0,
+                "additionalResolving": 0,
+                "additionalIntegration": 0,
+                "factory": 6,
+                "dependencies": 0
+              },
+              "id": null,
+              "issuerId": null,
+              "chunks": [],
+              "assets": [],
+              "reasons": [],
+              "usedExports": [],
+              "providedExports": [],
+              "optimizationBailout": [],
+              "depth": 0
+            },
+            {
+              "type": "module",
+              "moduleType": "javascript/auto",
+              "identifier": "/home/javier/Documents/microverse/to-do-list/src/todos.js",
+              "name": "./src/todos.js",
+              "nameForCondition": "/home/javier/Documents/microverse/to-do-list/src/todos.js",
+              "index": 1,
+              "preOrderIndex": 1,
+              "index2": 0,
+              "postOrderIndex": 0,
+              "size": 1088,
+              "sizes": {
+                "javascript": 1088
+              },
+              "cacheable": true,
+              "built": true,
+              "codeGenerated": false,
+              "cached": false,
+              "optional": false,
+              "orphan": false,
+              "dependent": true,
+              "issuer": "/home/javier/Documents/microverse/to-do-list/src/index.js",
+              "issuerName": "./src/index.js",
+              "issuerPath": [
+                {
+                  "identifier": "/home/javier/Documents/microverse/to-do-list/src/index.js",
+                  "name": "./src/index.js",
+                  "profile": {
+                    "total": 11,
+                    "resolving": 6,
+                    "restoring": 0,
+                    "building": 5,
+                    "integration": 0,
+                    "storing": 0,
+                    "additionalResolving": 0,
+                    "additionalIntegration": 0,
+                    "factory": 6,
+                    "dependencies": 0
+                  },
+                  "id": null
+                }
+              ],
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "profile": {
+                "total": 21,
+                "resolving": 19,
+                "restoring": 0,
+                "building": 2,
+                "integration": 0,
+                "storing": 0,
+                "additionalResolving": 0,
+                "additionalIntegration": 0,
+                "factory": 19,
+                "dependencies": 0
+              },
+              "id": null,
+              "issuerId": null,
+              "chunks": [],
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleIdentifier": "/home/javier/Documents/microverse/to-do-list/src/index.js",
+                  "module": "./src/index.js",
+                  "moduleName": "./src/index.js",
+                  "resolvedModuleIdentifier": "/home/javier/Documents/microverse/to-do-list/src/index.js",
+                  "resolvedModule": "./src/index.js",
+                  "type": "harmony side effect evaluation",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": "./todos",
+                  "loc": "1:0-27",
+                  "moduleId": null,
+                  "resolvedModuleId": null
+                },
+                {
+                  "moduleIdentifier": "/home/javier/Documents/microverse/to-do-list/src/index.js",
+                  "module": "./src/index.js",
+                  "moduleName": "./src/index.js",
+                  "resolvedModuleIdentifier": "/home/javier/Documents/microverse/to-do-list/src/index.js",
+                  "resolvedModule": "./src/index.js",
+                  "type": "harmony import specifier",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": "./todos",
+                  "loc": "3:19-23",
+                  "moduleId": null,
+                  "resolvedModuleId": null
+                }
+              ],
+              "usedExports": [
+                "default"
+              ],
+              "providedExports": [
+                "default"
+              ],
+              "optimizationBailout": [],
+              "depth": 1
+            }
+          ]
+        }
+      ],
+      "origins": [
+        {
+          "module": "",
+          "moduleIdentifier": "",
+          "moduleName": "",
+          "loc": "main",
+          "request": "./src/index.js"
+        }
+      ]
+    }
+  ],
+  "modules": [
+    {
+      "type": "module",
+      "moduleType": "javascript/esm",
+      "identifier": "/home/javier/Documents/microverse/to-do-list/src/index.js|3bc68c10c84092e1904828b6c2a55d0c",
+      "name": "./src/index.js + 1 modules",
+      "nameForCondition": "/home/javier/Documents/microverse/to-do-list/src/index.js",
+      "index": 0,
+      "preOrderIndex": 0,
+      "index2": 1,
+      "postOrderIndex": 1,
+      "size": 1203,
+      "sizes": {
+        "javascript": 1203
+      },
+      "cacheable": true,
+      "built": true,
+      "codeGenerated": true,
+      "cached": false,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": 725,
+      "chunks": [
+        179
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": null,
+          "module": null,
+          "moduleName": null,
+          "resolvedModuleIdentifier": null,
+          "resolvedModule": null,
+          "type": "entry",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./src/index.js",
+          "loc": "main",
+          "moduleId": null,
+          "resolvedModuleId": null
+        }
+      ],
+      "usedExports": [],
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": 0,
+      "modules": [
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "identifier": "/home/javier/Documents/microverse/to-do-list/src/index.js",
+          "name": "./src/index.js",
+          "nameForCondition": "/home/javier/Documents/microverse/to-do-list/src/index.js",
+          "index": 0,
+          "preOrderIndex": 0,
+          "index2": 1,
+          "postOrderIndex": 1,
+          "size": 115,
+          "sizes": {
+            "javascript": 115
+          },
+          "cacheable": true,
+          "built": true,
+          "codeGenerated": false,
+          "cached": false,
+          "optional": false,
+          "orphan": false,
+          "issuer": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "profile": {
+            "total": 11,
+            "resolving": 6,
+            "restoring": 0,
+            "building": 5,
+            "integration": 0,
+            "storing": 0,
+            "additionalResolving": 0,
+            "additionalIntegration": 0,
+            "factory": 6,
+            "dependencies": 0
+          },
+          "id": null,
+          "issuerId": null,
+          "chunks": [],
+          "assets": [],
+          "reasons": [],
+          "usedExports": [],
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": 0
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "identifier": "/home/javier/Documents/microverse/to-do-list/src/todos.js",
+          "name": "./src/todos.js",
+          "nameForCondition": "/home/javier/Documents/microverse/to-do-list/src/todos.js",
+          "index": 1,
+          "preOrderIndex": 1,
+          "index2": 0,
+          "postOrderIndex": 0,
+          "size": 1088,
+          "sizes": {
+            "javascript": 1088
+          },
+          "cacheable": true,
+          "built": true,
+          "codeGenerated": false,
+          "cached": false,
+          "optional": false,
+          "orphan": false,
+          "issuer": "/home/javier/Documents/microverse/to-do-list/src/index.js",
+          "issuerName": "./src/index.js",
+          "issuerPath": [
+            {
+              "identifier": "/home/javier/Documents/microverse/to-do-list/src/index.js",
+              "name": "./src/index.js",
+              "profile": {
+                "total": 11,
+                "resolving": 6,
+                "restoring": 0,
+                "building": 5,
+                "integration": 0,
+                "storing": 0,
+                "additionalResolving": 0,
+                "additionalIntegration": 0,
+                "factory": 6,
+                "dependencies": 0
+              },
+              "id": null
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "profile": {
+            "total": 21,
+            "resolving": 19,
+            "restoring": 0,
+            "building": 2,
+            "integration": 0,
+            "storing": 0,
+            "additionalResolving": 0,
+            "additionalIntegration": 0,
+            "factory": 19,
+            "dependencies": 0
+          },
+          "id": null,
+          "issuerId": null,
+          "chunks": [],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/home/javier/Documents/microverse/to-do-list/src/index.js",
+              "module": "./src/index.js",
+              "moduleName": "./src/index.js",
+              "resolvedModuleIdentifier": "/home/javier/Documents/microverse/to-do-list/src/index.js",
+              "resolvedModule": "./src/index.js",
+              "type": "harmony side effect evaluation",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./todos",
+              "loc": "1:0-27",
+              "moduleId": null,
+              "resolvedModuleId": null
+            },
+            {
+              "moduleIdentifier": "/home/javier/Documents/microverse/to-do-list/src/index.js",
+              "module": "./src/index.js",
+              "moduleName": "./src/index.js",
+              "resolvedModuleIdentifier": "/home/javier/Documents/microverse/to-do-list/src/index.js",
+              "resolvedModule": "./src/index.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./todos",
+              "loc": "3:19-23",
+              "moduleId": null,
+              "resolvedModuleId": null
+            }
+          ],
+          "usedExports": [
+            "default"
+          ],
+          "providedExports": [
+            "default"
+          ],
+          "optimizationBailout": [],
+          "depth": 1
+        }
+      ]
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "identifier": "/home/javier/Documents/microverse/to-do-list/src/todos.js",
+      "name": "./src/todos.js",
+      "nameForCondition": "/home/javier/Documents/microverse/to-do-list/src/todos.js",
+      "index": 1,
+      "preOrderIndex": 1,
+      "index2": 0,
+      "postOrderIndex": 0,
+      "size": 1088,
+      "sizes": {
+        "javascript": 1088
+      },
+      "cacheable": true,
+      "built": true,
+      "codeGenerated": false,
+      "cached": false,
+      "optional": false,
+      "orphan": true,
+      "issuer": "/home/javier/Documents/microverse/to-do-list/src/index.js",
+      "issuerName": "./src/index.js",
+      "issuerPath": [
+        {
+          "identifier": "/home/javier/Documents/microverse/to-do-list/src/index.js",
+          "name": "./src/index.js",
+          "profile": {
+            "total": 11,
+            "resolving": 6,
+            "restoring": 0,
+            "building": 5,
+            "integration": 0,
+            "storing": 0,
+            "additionalResolving": 0,
+            "additionalIntegration": 0,
+            "factory": 6,
+            "dependencies": 0
+          },
+          "id": null
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "profile": {
+        "total": 21,
+        "resolving": 19,
+        "restoring": 0,
+        "building": 2,
+        "integration": 0,
+        "storing": 0,
+        "additionalResolving": 0,
+        "additionalIntegration": 0,
+        "factory": 19,
+        "dependencies": 0
+      },
+      "id": null,
+      "issuerId": null,
+      "chunks": [],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "/home/javier/Documents/microverse/to-do-list/src/index.js",
+          "module": "./src/index.js",
+          "moduleName": "./src/index.js",
+          "resolvedModuleIdentifier": "/home/javier/Documents/microverse/to-do-list/src/index.js",
+          "resolvedModule": "./src/index.js",
+          "type": "harmony side effect evaluation",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./todos",
+          "loc": "1:0-27",
+          "moduleId": null,
+          "resolvedModuleId": null
+        },
+        {
+          "moduleIdentifier": "/home/javier/Documents/microverse/to-do-list/src/index.js",
+          "module": "./src/index.js",
+          "moduleName": "./src/index.js",
+          "resolvedModuleIdentifier": "/home/javier/Documents/microverse/to-do-list/src/index.js",
+          "resolvedModule": "./src/index.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./todos",
+          "loc": "3:19-23",
+          "moduleId": null,
+          "resolvedModuleId": null
+        }
+      ],
+      "usedExports": [
+        "default"
+      ],
+      "providedExports": [
+        "default"
+      ],
+      "optimizationBailout": [],
+      "depth": 1
+    }
+  ],
+  "entrypoints": {
+    "main": {
+      "name": "main",
+      "chunks": [
+        179
+      ],
+      "assets": [
+        {
+          "name": "[main].js",
+          "size": 491
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": 491,
+      "auxiliaryAssets": [],
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": 0,
+      "children": {},
+      "childAssets": {},
+      "isOverSizeLimit": false
+    }
+  },
+  "namedChunkGroups": {
+    "main": {
+      "name": "main",
+      "chunks": [
+        179
+      ],
+      "assets": [
+        {
+          "name": "[main].js",
+          "size": 491
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": 491,
+      "auxiliaryAssets": [],
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": 0,
+      "children": {},
+      "childAssets": {},
+      "isOverSizeLimit": false
+    }
+  },
+  "errors": [],
+  "errorsCount": 0,
+  "warnings": [],
+  "warningsCount": 0,
+  "children": [
+    {
+      "name": "HtmlWebpackCompiler",
+      "hash": "97718d1564bb20e385bf",
+      "version": "5.1.3",
+      "time": 41,
+      "builtAt": 1603405406891,
+      "publicPath": "auto",
+      "outputPath": "/home/javier/Documents/microverse/to-do-list/dist",
+      "assetsByChunkName": {
+        "HtmlWebpackPlugin_0": [
+          "__child-HtmlWebpackPlugin_0"
+        ]
+      },
+      "assets": [
+        {
+          "type": "asset",
+          "name": "__child-HtmlWebpackPlugin_0",
+          "size": 1826,
+          "chunkNames": [
+            "HtmlWebpackPlugin_0"
+          ],
+          "chunkIdHints": [],
+          "auxiliaryChunkNames": [],
+          "auxiliaryChunkIdHints": [],
+          "emitted": false,
+          "comparedForEmit": false,
+          "cached": true,
+          "info": {},
+          "related": {},
+          "chunks": [
+            443
+          ],
+          "auxiliaryChunks": [],
+          "isOverSizeLimit": false
+        }
+      ],
+      "chunks": [
+        {
+          "rendered": true,
+          "initial": true,
+          "entry": true,
+          "recorded": false,
+          "size": 445,
+          "sizes": {
+            "javascript": 445
+          },
+          "names": [
+            "HtmlWebpackPlugin_0"
+          ],
+          "idHints": [],
+          "runtime": [
+            "HtmlWebpackPlugin_0"
+          ],
+          "files": [
+            "__child-HtmlWebpackPlugin_0"
+          ],
+          "auxiliaryFiles": [],
+          "hash": "96b254dbc988e1464b51",
+          "childrenByOrder": {},
+          "id": 443,
+          "siblings": [],
+          "parents": [],
+          "children": [],
+          "modules": [
+            {
+              "type": "module",
+              "moduleType": "javascript/auto",
+              "identifier": "/home/javier/Documents/microverse/to-do-list/node_modules/html-webpack-plugin/lib/loader.js!/home/javier/Documents/microverse/to-do-list/node_modules/html-webpack-plugin/default_index.ejs",
+              "name": "./node_modules/html-webpack-plugin/lib/loader.js!./node_modules/html-webpack-plugin/default_index.ejs",
+              "nameForCondition": "/home/javier/Documents/microverse/to-do-list/node_modules/html-webpack-plugin/default_index.ejs",
+              "index": 0,
+              "preOrderIndex": 0,
+              "index2": 0,
+              "postOrderIndex": 0,
+              "size": 445,
+              "sizes": {
+                "javascript": 445
+              },
+              "cacheable": true,
+              "built": true,
+              "codeGenerated": true,
+              "cached": false,
+              "optional": false,
+              "orphan": false,
+              "dependent": false,
+              "issuer": null,
+              "issuerName": null,
+              "issuerPath": null,
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "profile": {
+                "total": 0,
+                "resolving": 0,
+                "restoring": 0,
+                "building": 0,
+                "integration": 0,
+                "storing": 0,
+                "additionalResolving": 0,
+                "additionalIntegration": 0,
+                "factory": 0,
+                "dependencies": 0
+              },
+              "id": 893,
+              "issuerId": null,
+              "chunks": [
+                443
+              ],
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleIdentifier": "/home/javier/Documents/microverse/to-do-list/node_modules/html-webpack-plugin/lib/loader.js!/home/javier/Documents/microverse/to-do-list/node_modules/html-webpack-plugin/default_index.ejs",
+                  "module": "./node_modules/html-webpack-plugin/lib/loader.js!./node_modules/html-webpack-plugin/default_index.ejs",
+                  "moduleName": "./node_modules/html-webpack-plugin/lib/loader.js!./node_modules/html-webpack-plugin/default_index.ejs",
+                  "resolvedModuleIdentifier": "/home/javier/Documents/microverse/to-do-list/node_modules/html-webpack-plugin/lib/loader.js!/home/javier/Documents/microverse/to-do-list/node_modules/html-webpack-plugin/default_index.ejs",
+                  "resolvedModule": "./node_modules/html-webpack-plugin/lib/loader.js!./node_modules/html-webpack-plugin/default_index.ejs",
+                  "type": "cjs self exports reference",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": null,
+                  "loc": "1:110-124",
+                  "moduleId": 893,
+                  "resolvedModuleId": 893
+                },
+                {
+                  "moduleIdentifier": null,
+                  "module": null,
+                  "moduleName": null,
+                  "resolvedModuleIdentifier": null,
+                  "resolvedModule": null,
+                  "type": "entry",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": "/home/javier/Documents/microverse/to-do-list/node_modules/html-webpack-plugin/lib/loader.js!/home/javier/Documents/microverse/to-do-list/node_modules/html-webpack-plugin/default_index.ejs",
+                  "loc": "HtmlWebpackPlugin_0",
+                  "moduleId": null,
+                  "resolvedModuleId": null
+                },
+                {
+                  "moduleIdentifier": null,
+                  "module": null,
+                  "moduleName": null,
+                  "resolvedModuleIdentifier": null,
+                  "resolvedModule": null,
+                  "type": null,
+                  "active": true,
+                  "explanation": "used as library export",
+                  "userRequest": null,
+                  "moduleId": null,
+                  "resolvedModuleId": null
+                }
+              ],
+              "usedExports": null,
+              "providedExports": null,
+              "optimizationBailout": [
+                "CommonJS bailout: module.exports is used directly at 1:110-124",
+                "ModuleConcatenation bailout: Module is not an ECMAScript module"
+              ],
+              "depth": 0
+            }
+          ],
+          "origins": [
+            {
+              "module": "",
+              "moduleIdentifier": "",
+              "moduleName": "",
+              "loc": "HtmlWebpackPlugin_0",
+              "request": "/home/javier/Documents/microverse/to-do-list/node_modules/html-webpack-plugin/lib/loader.js!/home/javier/Documents/microverse/to-do-list/node_modules/html-webpack-plugin/default_index.ejs"
+            }
+          ]
+        }
+      ],
+      "modules": [
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "identifier": "/home/javier/Documents/microverse/to-do-list/node_modules/html-webpack-plugin/lib/loader.js!/home/javier/Documents/microverse/to-do-list/node_modules/html-webpack-plugin/default_index.ejs",
+          "name": "./node_modules/html-webpack-plugin/lib/loader.js!./node_modules/html-webpack-plugin/default_index.ejs",
+          "nameForCondition": "/home/javier/Documents/microverse/to-do-list/node_modules/html-webpack-plugin/default_index.ejs",
+          "index": 0,
+          "preOrderIndex": 0,
+          "index2": 0,
+          "postOrderIndex": 0,
+          "size": 445,
+          "sizes": {
+            "javascript": 445
+          },
+          "cacheable": true,
+          "built": true,
+          "codeGenerated": true,
+          "cached": false,
+          "optional": false,
+          "orphan": false,
+          "issuer": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "profile": {
+            "total": 0,
+            "resolving": 0,
+            "restoring": 0,
+            "building": 0,
+            "integration": 0,
+            "storing": 0,
+            "additionalResolving": 0,
+            "additionalIntegration": 0,
+            "factory": 0,
+            "dependencies": 0
+          },
+          "id": 893,
+          "issuerId": null,
+          "chunks": [
+            443
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/home/javier/Documents/microverse/to-do-list/node_modules/html-webpack-plugin/lib/loader.js!/home/javier/Documents/microverse/to-do-list/node_modules/html-webpack-plugin/default_index.ejs",
+              "module": "./node_modules/html-webpack-plugin/lib/loader.js!./node_modules/html-webpack-plugin/default_index.ejs",
+              "moduleName": "./node_modules/html-webpack-plugin/lib/loader.js!./node_modules/html-webpack-plugin/default_index.ejs",
+              "resolvedModuleIdentifier": "/home/javier/Documents/microverse/to-do-list/node_modules/html-webpack-plugin/lib/loader.js!/home/javier/Documents/microverse/to-do-list/node_modules/html-webpack-plugin/default_index.ejs",
+              "resolvedModule": "./node_modules/html-webpack-plugin/lib/loader.js!./node_modules/html-webpack-plugin/default_index.ejs",
+              "type": "cjs self exports reference",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "loc": "1:110-124",
+              "moduleId": 893,
+              "resolvedModuleId": 893
+            },
+            {
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "resolvedModuleIdentifier": null,
+              "resolvedModule": null,
+              "type": "entry",
+              "active": true,
+              "explanation": "",
+              "userRequest": "/home/javier/Documents/microverse/to-do-list/node_modules/html-webpack-plugin/lib/loader.js!/home/javier/Documents/microverse/to-do-list/node_modules/html-webpack-plugin/default_index.ejs",
+              "loc": "HtmlWebpackPlugin_0",
+              "moduleId": null,
+              "resolvedModuleId": null
+            },
+            {
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "resolvedModuleIdentifier": null,
+              "resolvedModule": null,
+              "type": null,
+              "active": true,
+              "explanation": "used as library export",
+              "userRequest": null,
+              "moduleId": null,
+              "resolvedModuleId": null
+            }
+          ],
+          "usedExports": null,
+          "providedExports": null,
+          "optimizationBailout": [
+            "CommonJS bailout: module.exports is used directly at 1:110-124",
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 0
+        }
+      ],
+      "entrypoints": {
+        "HtmlWebpackPlugin_0": {
+          "name": "HtmlWebpackPlugin_0",
+          "chunks": [
+            443
+          ],
+          "assets": [
+            {
+              "name": "__child-HtmlWebpackPlugin_0"
+            }
+          ],
+          "filteredAssets": 0,
+          "assetsSize": null,
+          "auxiliaryAssets": [],
+          "filteredAuxiliaryAssets": 0,
+          "auxiliaryAssetsSize": 0,
+          "children": {},
+          "childAssets": {},
+          "isOverSizeLimit": false
+        }
+      },
+      "namedChunkGroups": {
+        "HtmlWebpackPlugin_0": {
+          "name": "HtmlWebpackPlugin_0",
+          "chunks": [
+            443
+          ],
+          "assets": [
+            {
+              "name": "__child-HtmlWebpackPlugin_0"
+            }
+          ],
+          "filteredAssets": 0,
+          "assetsSize": null,
+          "auxiliaryAssets": [],
+          "filteredAuxiliaryAssets": 0,
+          "auxiliaryAssetsSize": 0,
+          "children": {},
+          "childAssets": {},
+          "isOverSizeLimit": false
+        }
+      },
+      "errors": [],
+      "errorsCount": 0,
+      "warnings": [],
+      "warningsCount": 0,
+      "children": []
+    }
+  ]
+}
+[webpack-cli] [32mwatching files for updates...[39m
+{
+  "hash": "fc85ee44fc8806f356c4",
+  "version": "5.1.3",
+  "time": 171,
+  "builtAt": 1603405846735,
+  "publicPath": "auto",
+  "outputPath": "/home/javier/Documents/microverse/to-do-list/dist",
+  "assetsByChunkName": {
+    "main": [
+      "[main].js"
+    ]
+  },
+  "assets": [
+    {
+      "type": "asset",
+      "name": "[main].js",
+      "size": 491,
+      "chunkNames": [
+        "main"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "emitted": true,
+      "comparedForEmit": false,
+      "cached": false,
+      "info": {
+        "minimized": true,
+        "size": 491
+      },
+      "related": {},
+      "chunks": [
+        179
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    }
+  ],
+  "chunks": [
+    {
+      "rendered": true,
+      "initial": true,
+      "entry": true,
+      "recorded": false,
+      "size": 1203,
+      "sizes": {
+        "javascript": 1203
+      },
+      "names": [
+        "main"
+      ],
+      "idHints": [],
+      "runtime": [
+        "main"
+      ],
+      "files": [
+        "[main].js"
+      ],
+      "auxiliaryFiles": [],
+      "hash": "902ffead8a4ff7bc2c81",
+      "childrenByOrder": {},
+      "id": 179,
+      "siblings": [],
+      "parents": [],
+      "children": [],
+      "modules": [
+        {
+          "type": "module",
+          "moduleType": "javascript/esm",
+          "identifier": "/home/javier/Documents/microverse/to-do-list/src/index.js|3bc68c10c84092e1904828b6c2a55d0c",
+          "name": "./src/index.js + 1 modules",
+          "nameForCondition": "/home/javier/Documents/microverse/to-do-list/src/index.js",
+          "index": 0,
+          "preOrderIndex": 0,
+          "index2": 1,
+          "postOrderIndex": 1,
+          "size": 1203,
+          "sizes": {
+            "javascript": 1203
+          },
+          "cacheable": true,
+          "built": true,
+          "codeGenerated": true,
+          "cached": false,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": 725,
+          "chunks": [
+            179
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "resolvedModuleIdentifier": null,
+              "resolvedModule": null,
+              "type": "entry",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./src/index.js",
+              "loc": "main",
+              "moduleId": null,
+              "resolvedModuleId": null
+            }
+          ],
+          "usedExports": [],
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": 0,
+          "modules": [
+            {
+              "type": "module",
+              "moduleType": "javascript/auto",
+              "identifier": "/home/javier/Documents/microverse/to-do-list/src/index.js",
+              "name": "./src/index.js",
+              "nameForCondition": "/home/javier/Documents/microverse/to-do-list/src/index.js",
+              "index": 0,
+              "preOrderIndex": 0,
+              "index2": 1,
+              "postOrderIndex": 1,
+              "size": 115,
+              "sizes": {
+                "javascript": 115
+              },
+              "cacheable": true,
+              "built": true,
+              "codeGenerated": false,
+              "cached": false,
+              "optional": false,
+              "orphan": false,
+              "dependent": true,
+              "issuer": null,
+              "issuerName": null,
+              "issuerPath": null,
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "profile": {
+                "total": 8,
+                "resolving": 6,
+                "restoring": 0,
+                "building": 2,
+                "integration": 0,
+                "storing": 0,
+                "additionalResolving": 0,
+                "additionalIntegration": 0,
+                "factory": 6,
+                "dependencies": 0
+              },
+              "id": null,
+              "issuerId": null,
+              "chunks": [],
+              "assets": [],
+              "reasons": [],
+              "usedExports": [],
+              "providedExports": [],
+              "optimizationBailout": [],
+              "depth": 0
+            },
+            {
+              "type": "module",
+              "moduleType": "javascript/auto",
+              "identifier": "/home/javier/Documents/microverse/to-do-list/src/todos.js",
+              "name": "./src/todos.js",
+              "nameForCondition": "/home/javier/Documents/microverse/to-do-list/src/todos.js",
+              "index": 1,
+              "preOrderIndex": 1,
+              "index2": 0,
+              "postOrderIndex": 0,
+              "size": 1088,
+              "sizes": {
+                "javascript": 1088
+              },
+              "cacheable": true,
+              "built": true,
+              "codeGenerated": false,
+              "cached": false,
+              "optional": false,
+              "orphan": false,
+              "dependent": true,
+              "issuer": "/home/javier/Documents/microverse/to-do-list/src/index.js",
+              "issuerName": "./src/index.js",
+              "issuerPath": [
+                {
+                  "identifier": "/home/javier/Documents/microverse/to-do-list/src/index.js",
+                  "name": "./src/index.js",
+                  "profile": {
+                    "total": 8,
+                    "resolving": 6,
+                    "restoring": 0,
+                    "building": 2,
+                    "integration": 0,
+                    "storing": 0,
+                    "additionalResolving": 0,
+                    "additionalIntegration": 0,
+                    "factory": 6,
+                    "dependencies": 0
+                  },
+                  "id": null
+                }
+              ],
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "profile": {
+                "total": 5,
+                "resolving": 2,
+                "restoring": 0,
+                "building": 3,
+                "integration": 0,
+                "storing": 0,
+                "additionalResolving": 0,
+                "additionalIntegration": 0,
+                "factory": 2,
+                "dependencies": 0
+              },
+              "id": null,
+              "issuerId": null,
+              "chunks": [],
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleIdentifier": "/home/javier/Documents/microverse/to-do-list/src/index.js",
+                  "module": "./src/index.js",
+                  "moduleName": "./src/index.js",
+                  "resolvedModuleIdentifier": "/home/javier/Documents/microverse/to-do-list/src/index.js",
+                  "resolvedModule": "./src/index.js",
+                  "type": "harmony side effect evaluation",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": "./todos",
+                  "loc": "1:0-27",
+                  "moduleId": null,
+                  "resolvedModuleId": null
+                },
+                {
+                  "moduleIdentifier": "/home/javier/Documents/microverse/to-do-list/src/index.js",
+                  "module": "./src/index.js",
+                  "moduleName": "./src/index.js",
+                  "resolvedModuleIdentifier": "/home/javier/Documents/microverse/to-do-list/src/index.js",
+                  "resolvedModule": "./src/index.js",
+                  "type": "harmony import specifier",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": "./todos",
+                  "loc": "3:19-23",
+                  "moduleId": null,
+                  "resolvedModuleId": null
+                }
+              ],
+              "usedExports": [
+                "default"
+              ],
+              "providedExports": [
+                "default"
+              ],
+              "optimizationBailout": [],
+              "depth": 1
+            }
+          ]
+        }
+      ],
+      "origins": [
+        {
+          "module": "",
+          "moduleIdentifier": "",
+          "moduleName": "",
+          "loc": "main",
+          "request": "./src/index.js"
+        }
+      ]
+    }
+  ],
+  "modules": [
+    {
+      "type": "module",
+      "moduleType": "javascript/esm",
+      "identifier": "/home/javier/Documents/microverse/to-do-list/src/index.js|3bc68c10c84092e1904828b6c2a55d0c",
+      "name": "./src/index.js + 1 modules",
+      "nameForCondition": "/home/javier/Documents/microverse/to-do-list/src/index.js",
+      "index": 0,
+      "preOrderIndex": 0,
+      "index2": 1,
+      "postOrderIndex": 1,
+      "size": 1203,
+      "sizes": {
+        "javascript": 1203
+      },
+      "cacheable": true,
+      "built": true,
+      "codeGenerated": true,
+      "cached": false,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": 725,
+      "chunks": [
+        179
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": null,
+          "module": null,
+          "moduleName": null,
+          "resolvedModuleIdentifier": null,
+          "resolvedModule": null,
+          "type": "entry",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./src/index.js",
+          "loc": "main",
+          "moduleId": null,
+          "resolvedModuleId": null
+        }
+      ],
+      "usedExports": [],
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": 0,
+      "modules": [
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "identifier": "/home/javier/Documents/microverse/to-do-list/src/index.js",
+          "name": "./src/index.js",
+          "nameForCondition": "/home/javier/Documents/microverse/to-do-list/src/index.js",
+          "index": 0,
+          "preOrderIndex": 0,
+          "index2": 1,
+          "postOrderIndex": 1,
+          "size": 115,
+          "sizes": {
+            "javascript": 115
+          },
+          "cacheable": true,
+          "built": true,
+          "codeGenerated": false,
+          "cached": false,
+          "optional": false,
+          "orphan": false,
+          "issuer": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "profile": {
+            "total": 8,
+            "resolving": 6,
+            "restoring": 0,
+            "building": 2,
+            "integration": 0,
+            "storing": 0,
+            "additionalResolving": 0,
+            "additionalIntegration": 0,
+            "factory": 6,
+            "dependencies": 0
+          },
+          "id": null,
+          "issuerId": null,
+          "chunks": [],
+          "assets": [],
+          "reasons": [],
+          "usedExports": [],
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": 0
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "identifier": "/home/javier/Documents/microverse/to-do-list/src/todos.js",
+          "name": "./src/todos.js",
+          "nameForCondition": "/home/javier/Documents/microverse/to-do-list/src/todos.js",
+          "index": 1,
+          "preOrderIndex": 1,
+          "index2": 0,
+          "postOrderIndex": 0,
+          "size": 1088,
+          "sizes": {
+            "javascript": 1088
+          },
+          "cacheable": true,
+          "built": true,
+          "codeGenerated": false,
+          "cached": false,
+          "optional": false,
+          "orphan": false,
+          "issuer": "/home/javier/Documents/microverse/to-do-list/src/index.js",
+          "issuerName": "./src/index.js",
+          "issuerPath": [
+            {
+              "identifier": "/home/javier/Documents/microverse/to-do-list/src/index.js",
+              "name": "./src/index.js",
+              "profile": {
+                "total": 8,
+                "resolving": 6,
+                "restoring": 0,
+                "building": 2,
+                "integration": 0,
+                "storing": 0,
+                "additionalResolving": 0,
+                "additionalIntegration": 0,
+                "factory": 6,
+                "dependencies": 0
+              },
+              "id": null
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "profile": {
+            "total": 5,
+            "resolving": 2,
+            "restoring": 0,
+            "building": 3,
+            "integration": 0,
+            "storing": 0,
+            "additionalResolving": 0,
+            "additionalIntegration": 0,
+            "factory": 2,
+            "dependencies": 0
+          },
+          "id": null,
+          "issuerId": null,
+          "chunks": [],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/home/javier/Documents/microverse/to-do-list/src/index.js",
+              "module": "./src/index.js",
+              "moduleName": "./src/index.js",
+              "resolvedModuleIdentifier": "/home/javier/Documents/microverse/to-do-list/src/index.js",
+              "resolvedModule": "./src/index.js",
+              "type": "harmony side effect evaluation",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./todos",
+              "loc": "1:0-27",
+              "moduleId": null,
+              "resolvedModuleId": null
+            },
+            {
+              "moduleIdentifier": "/home/javier/Documents/microverse/to-do-list/src/index.js",
+              "module": "./src/index.js",
+              "moduleName": "./src/index.js",
+              "resolvedModuleIdentifier": "/home/javier/Documents/microverse/to-do-list/src/index.js",
+              "resolvedModule": "./src/index.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./todos",
+              "loc": "3:19-23",
+              "moduleId": null,
+              "resolvedModuleId": null
+            }
+          ],
+          "usedExports": [
+            "default"
+          ],
+          "providedExports": [
+            "default"
+          ],
+          "optimizationBailout": [],
+          "depth": 1
+        }
+      ]
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "identifier": "/home/javier/Documents/microverse/to-do-list/src/todos.js",
+      "name": "./src/todos.js",
+      "nameForCondition": "/home/javier/Documents/microverse/to-do-list/src/todos.js",
+      "index": 1,
+      "preOrderIndex": 1,
+      "index2": 0,
+      "postOrderIndex": 0,
+      "size": 1088,
+      "sizes": {
+        "javascript": 1088
+      },
+      "cacheable": true,
+      "built": true,
+      "codeGenerated": false,
+      "cached": false,
+      "optional": false,
+      "orphan": true,
+      "issuer": "/home/javier/Documents/microverse/to-do-list/src/index.js",
+      "issuerName": "./src/index.js",
+      "issuerPath": [
+        {
+          "identifier": "/home/javier/Documents/microverse/to-do-list/src/index.js",
+          "name": "./src/index.js",
+          "profile": {
+            "total": 8,
+            "resolving": 6,
+            "restoring": 0,
+            "building": 2,
+            "integration": 0,
+            "storing": 0,
+            "additionalResolving": 0,
+            "additionalIntegration": 0,
+            "factory": 6,
+            "dependencies": 0
+          },
+          "id": null
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "profile": {
+        "total": 5,
+        "resolving": 2,
+        "restoring": 0,
+        "building": 3,
+        "integration": 0,
+        "storing": 0,
+        "additionalResolving": 0,
+        "additionalIntegration": 0,
+        "factory": 2,
+        "dependencies": 0
+      },
+      "id": null,
+      "issuerId": null,
+      "chunks": [],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "/home/javier/Documents/microverse/to-do-list/src/index.js",
+          "module": "./src/index.js",
+          "moduleName": "./src/index.js",
+          "resolvedModuleIdentifier": "/home/javier/Documents/microverse/to-do-list/src/index.js",
+          "resolvedModule": "./src/index.js",
+          "type": "harmony side effect evaluation",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./todos",
+          "loc": "1:0-27",
+          "moduleId": null,
+          "resolvedModuleId": null
+        },
+        {
+          "moduleIdentifier": "/home/javier/Documents/microverse/to-do-list/src/index.js",
+          "module": "./src/index.js",
+          "moduleName": "./src/index.js",
+          "resolvedModuleIdentifier": "/home/javier/Documents/microverse/to-do-list/src/index.js",
+          "resolvedModule": "./src/index.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./todos",
+          "loc": "3:19-23",
+          "moduleId": null,
+          "resolvedModuleId": null
+        }
+      ],
+      "usedExports": [
+        "default"
+      ],
+      "providedExports": [
+        "default"
+      ],
+      "optimizationBailout": [],
+      "depth": 1
+    }
+  ],
+  "entrypoints": {
+    "main": {
+      "name": "main",
+      "chunks": [
+        179
+      ],
+      "assets": [
+        {
+          "name": "[main].js",
+          "size": 491
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": 491,
+      "auxiliaryAssets": [],
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": 0,
+      "children": {},
+      "childAssets": {},
+      "isOverSizeLimit": false
+    }
+  },
+  "namedChunkGroups": {
+    "main": {
+      "name": "main",
+      "chunks": [
+        179
+      ],
+      "assets": [
+        {
+          "name": "[main].js",
+          "size": 491
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": 491,
+      "auxiliaryAssets": [],
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": 0,
+      "children": {},
+      "childAssets": {},
+      "isOverSizeLimit": false
+    }
+  },
+  "errors": [],
+  "errorsCount": 0,
+  "warnings": [],
+  "warningsCount": 0,
+  "children": []
+}
+[webpack-cli] [32mwatching files for updates...[39m
