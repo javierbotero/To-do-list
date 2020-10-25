@@ -1,10 +1,10 @@
 const todos = [];
-const categories = ['Default Project'];
-const addTodos = (toDo) => { todos.push(toDo); };
+const projects = ['Default Project'];
 
 const todo = (title = 'Undefined to-do',
   description = 'Undefined description',
   dueDate = new Date(Date.now() + 1000 * 60 * 60 * 24 * 30 * 12),
+  project = 0,
   priority = 5,
   notes = ['No notes'],
   checklist = [{ miniTask: 'No checklist', done: false }],
@@ -16,6 +16,8 @@ const todo = (title = 'Undefined to-do',
     setDescription(text) { description = text; },
     getDueDate() { return dueDate; },
     setDueDate(text) { dueDate = text; },
+    getProject() { return project; },
+    setProject(index) { project = index; },
     getPriority() { return priority; },
     setPriority(n) { priority = n; },
     getNotes() { return notes; },
@@ -31,6 +33,6 @@ const todo = (title = 'Undefined to-do',
 
 export {
   todos,
-  categories,
+  projects,
   todo,
 };

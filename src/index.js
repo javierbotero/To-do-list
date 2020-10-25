@@ -1,19 +1,11 @@
-import { todos, addTodos, todo } from './todos';
+import { todos, projects, todo } from './todos';
+import { manageTodos } from './manageTodos';
 
-let myVar;
-const myObj = todo('My task', 'Some description',
-  '2020-10-27',
-  2,
-  ['first note', 'another note'],
-  [{ miniTask: 'clean bed', done: false }, { miniTask: 'clean bed', done: false }]);
-const myObj2 = todo(myVar,
-  'Some description',
-  myVar,
-  2,
-  myVar,
-  myVar);
-addTodos(myObj);
-addTodos(myObj2);
-console.log(todos);
-console.log(todos[1].getFinished());
-
+const myTodo = todo();
+manageTodos.addTodos(myTodo);
+console.log(todos[0].getProject());
+manageTodos.addProject('Development');
+console.log(projects);
+myTodo.setProject(1);
+console.log(myTodo.getProject());
+console.log(projects[myTodo.getProject()]);
