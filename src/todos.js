@@ -1,5 +1,5 @@
 const todos = [];
-
+const categories = ['Default Project'];
 const addTodos = (toDo) => { todos.push(toDo); };
 
 const todo = (title = 'Undefined to-do',
@@ -9,37 +9,28 @@ const todo = (title = 'Undefined to-do',
   notes = ['No notes'],
   checklist = [{ miniTask: 'No checklist', done: false }],
   finished = false) => {
-  const getTitle = () => title;
-  const setTitle = (text) => { title = text; };
-  const getDescription = () => description;
-  const setDescription = (text) => { description = text; };
-  const getDueDate = () => dueDate;
-  const setDueDate = (text) => { dueDate = text; };
-  const getPriority = () => priority;
-  const setPriority = (n) => { priority = n; };
-  const getNotes = () => notes;
-  const setNotes = (array) => { notes = array; };
-  const getChecklist = () => checklist;
-  const setChecklist = (array) => { checklist = array; };
-  const getFinished = () => finished;
-  const setFinished = () => { finished = finished ? false : true; };
-
-  return {
-    getTitle,
-    setTitle,
-    getDescription,
-    setDescription,
-    getDueDate,
-    setDueDate,
-    getPriority,
-    setPriority,
-    getNotes,
-    setNotes,
-    getChecklist,
-    setChecklist,
-    getFinished,
-    setFinished,
+  const proto = {
+    getTitle() { return title; },
+    setTitle(text) { title = text; },
+    getDescription() { return description; },
+    setDescription(text) { description = text; },
+    getDueDate() { return dueDate; },
+    setDueDate(text) { dueDate = text; },
+    getPriority() { return priority; },
+    setPriority(n) { priority = n; },
+    getNotes() { return notes; },
+    setNotes(array) { notes = array; },
+    getChecklist() { return checklist; },
+    setChecklist(array) { checklist = array; },
+    getFinished() { return finished; },
+    setFinished() { finished = !finished; },
   };
+
+  return Object.create(proto);
 };
 
-export { todos, addTodos, todo };
+export {
+  todos,
+  categories,
+  todo,
+};
