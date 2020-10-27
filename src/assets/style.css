@@ -1,0 +1,4 @@
+.hide-form-todo {
+  opacity: 0;
+  z-index: -1;
+}

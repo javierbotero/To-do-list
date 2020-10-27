@@ -1,11 +1,8 @@
-import { todos, projects, todo } from './todos';
-import { manageTodos } from './manageTodos';
+import { displayToDom } from './displayToDom';
+import { events } from './events';
+import './assets/style.css';
 
-const myTodo = todo();
-manageTodos.addTodos(myTodo);
-console.log(todos[0].getProject());
-manageTodos.addProject('Development');
-console.log(projects);
-myTodo.setProject(1);
-console.log(myTodo.getProject());
-console.log(projects[myTodo.getProject()]);
+displayToDom.displayLayout();
+displayToDom.displayBtnAddTodo();
+displayToDom.displayBtnAddProject();
+events.makeBtnsClickable();
